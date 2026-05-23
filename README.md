@@ -181,7 +181,7 @@ xo_mask = analyzer.detect(frame_gray)  # binary XO zone mask
 ---
 
 ## Performance Benchmarks
-
+Development environment: Google Colab (NVIDIA T4 GPU)
 ### Inference Backend Comparison (NVIDIA RTX 3060)
 
 | Backend | Precision | FPS | Latency (ms) |
